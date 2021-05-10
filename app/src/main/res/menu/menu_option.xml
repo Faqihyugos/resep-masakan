@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about_icon"
+        android:title="@string/about"
+        android:icon="@drawable/icon_face_about"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_listview"
+        android:title="@string/mode_list"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_cardview"
+        android:title="@string/mode_card"
+        app:showAsAction="never"/>
+
+</menu>

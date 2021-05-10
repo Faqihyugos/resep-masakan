@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EDEBEB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        android:orientation="vertical">
+        
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/primary_text"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_about"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/profile_faqih"/>
+
+        <TextView
+            android:id="@+id/name_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_about"
+            android:textColor="@color/primary_text"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        <TextView
+            android:id="@+id/profesi_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profesi"
+            android:textColor="@color/primary_text"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_about"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/corner_detail"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/ScoreFollow"
+                        android:text="@string/jml_following" />
+
+                    <TextView
+                        style="@style/TextFollow"
+                        android:text="@string/following"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_pengikut"
+                        style="@style/ScoreFollow"
+                        android:text="@string/jml_followers" />
+
+                    <TextView
+                        style="@style/TextFollow"
+                        android:text="@string/followers" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LayoutContentAbout">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_mail_about" />
+
+                <TextView
+                    style="@style/TextViewAbout"
+                    android:text="@string/mail" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LayoutContentAbout">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_phone_about"/>
+
+                <TextView
+                    style="@style/TextViewAbout"
+                    android:text="@string/phone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LayoutContentAbout">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_loc_about" />
+
+                <TextView
+                    style="@style/TextViewAbout"
+                    android:text="@string/address" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_follow"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/corner_button"
+                android:text="@string/follow"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

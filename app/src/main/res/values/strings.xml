@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Resep Makanan</string>
+    <string name="name_makanan">Nama Makanan</string>
+    <string name="level_makanan">Level Makanan</string>
+    <string name="bahan_makanan">Bahan-bahan : </string>
+    <string name="cara_memasak">Petunjuk : </string>
+    <string name="about">Tentang</string>
+    <string name="name_about">Faqih Yugo Susilo</string>
+    <string name="profesi">Mahasiswa STMIK Jakarta</string>
+    <string name="jml_following">678</string>
+    <string name="jml_followers">603</string>
+    <string name="following">Mengikuti</string>
+    <string name="followers">Pengikut</string>
+    <string name="mail">faqihyugos@gmail.com</string>
+    <string name="phone">085778xx18xx</string>
+    <string name="address">Tangrang Selatang, Banten, Indonesia</string>
+    <string name="follow">Ikuti</string>
+    <string name="text_level_food">Text Level Food</string>
+    <string name="mode_list">Mode List</string>
+    <string name="mode_card">Mode Card</string>
+</resources>
